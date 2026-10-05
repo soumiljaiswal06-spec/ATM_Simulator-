@@ -1,0 +1,522 @@
+============================================
+               ATM SIMULATOR
+============================================
+
+Welcome to ABC Bank ATM
+
+1. Login
+2. Exit
+
+Enter choice: Invalid choice. Please select 1 to 2.
+Enter choice: Invalid input. Please enter a whole number.
+Enter choice: ============================================
+                   LOGIN
+============================================
+Enter account number: Enter 4-digit PIN: Invalid PIN. Attempts remaining: 2
+Enter 4-digit PIN: 
+Login successful. Welcome, Rahul Sharma!
+============================================
+              ACCOUNT DETAILS
+============================================
+Account Number  : 1001
+Name            : Rahul Sharma
+Account Type    : Savings
+============================================
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: 
+Current Balance: Rs. 25000.00
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: Enter amount to withdraw: Rs. Invalid input. Please enter a valid numeric amount.
+Enter amount to withdraw: Rs. 
+Transaction Failed: Amount must be greater than zero.
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: Enter amount to withdraw: Rs. 
+Transaction Failed: Amount must be greater than zero.
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: Enter amount to withdraw: Rs. 
+Transaction Failed: Amount exceeds the withdrawal limit of Rs. 20000.00 per transaction.
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: Enter amount to withdraw: Rs. 
+Transaction Successful!
+
+Amount Withdrawn: Rs. 5000.00
+Remaining Balance: Rs. 20000.00
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: Enter amount to deposit: Rs. 
+Deposit Successful!
+
+Deposited Amount: Rs. 3000.00
+Updated Balance: Rs. 23000.00
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: Enter amount to deposit: Rs. 
+Deposit Failed: Amount must be greater than zero.
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: Enter receiver account number: Enter transfer amount: Rs. 
+Transfer Successful!
+
+Transferred: Rs. 2000.00
+Receiver Account: 1002
+Remaining Balance: Rs. 21000.00
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: Enter receiver account number: Enter transfer amount: Rs. 
+Transfer Failed: You cannot transfer money to your own account.
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: Enter receiver account number: Enter transfer amount: Rs. 
+Transfer Failed: Receiver account not found.
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: Enter receiver account number: Enter transfer amount: Rs. 
+Transfer Failed: Insufficient balance. Available for transfer: Rs. 20500.00
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: Enter current PIN: 
+Incorrect current PIN. PIN not changed.
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: Enter current PIN: Enter new 4-digit PIN: 
+Invalid PIN format. PIN must be exactly 4 digits.
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: Enter current PIN: Enter new 4-digit PIN: Confirm new PIN: 
+PINs do not match. PIN not changed.
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: Enter current PIN: Enter new 4-digit PIN: Confirm new PIN: 
+New PIN cannot be the same as the old PIN.
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: Enter current PIN: Enter new 4-digit PIN: Confirm new PIN: 
+PIN changed successfully.
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: ============================================
+               MINI STATEMENT
+============================================
+Date/Time         Type                Amount
+--------------------------------------------
+05-Oct 02:08 PM   Withdrawal    -Rs. 5000.00
+05-Oct 02:08 PM   Deposit       +Rs. 3000.00
+05-Oct 02:08 PM   Transfer Out  -Rs. 2000.00
+--------------------------------------------
+Current Balance: Rs. 21000.00
+============================================
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: ============================================
+              ACCOUNT DETAILS
+============================================
+Account Number  : 1001
+Name            : Rahul Sharma
+Account Type    : Savings
+Balance         : Rs. 21000.00
+============================================
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: 
+Successfully logged out.
+
+============================================
+               ATM SIMULATOR
+============================================
+
+Welcome to ABC Bank ATM
+
+1. Login
+2. Exit
+
+Enter choice: ============================================
+                   LOGIN
+============================================
+Enter account number: Enter 4-digit PIN: Invalid PIN. Attempts remaining: 2
+Enter 4-digit PIN: Invalid PIN. Attempts remaining: 1
+Enter 4-digit PIN: Account blocked due to multiple incorrect PIN attempts.
+
+============================================
+               ATM SIMULATOR
+============================================
+
+Welcome to ABC Bank ATM
+
+1. Login
+2. Exit
+
+Enter choice: ============================================
+                   LOGIN
+============================================
+Enter account number: Account blocked due to multiple incorrect PIN attempts.
+
+============================================
+               ATM SIMULATOR
+============================================
+
+Welcome to ABC Bank ATM
+
+1. Login
+2. Exit
+
+Enter choice: ============================================
+                   LOGIN
+============================================
+Enter account number: Account not found.
+
+============================================
+               ATM SIMULATOR
+============================================
+
+Welcome to ABC Bank ATM
+
+1. Login
+2. Exit
+
+Enter choice: ============================================
+                   LOGIN
+============================================
+Enter account number: Enter 4-digit PIN: 
+Login successful. Welcome, Arjun Mehta!
+============================================
+              ACCOUNT DETAILS
+============================================
+Account Number  : 1003
+Name            : Arjun Mehta
+Account Type    : Current
+============================================
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: Enter amount to withdraw: Rs. 
+Transaction Successful!
+
+Amount Withdrawn: Rs. 50000.00
+Remaining Balance: Rs. 10000.00
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: Enter amount to withdraw: Rs. 
+Transaction Failed: Insufficient balance. Available for withdrawal: Rs. 20000.00
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: ============================================
+               MINI STATEMENT
+============================================
+Date/Time         Type                Amount
+--------------------------------------------
+05-Oct 02:08 PM   Withdrawal    -Rs. 50000.00
+--------------------------------------------
+Current Balance: Rs. 10000.00
+============================================
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: 
+Successfully logged out.
+
+============================================
+               ATM SIMULATOR
+============================================
+
+Welcome to ABC Bank ATM
+
+1. Login
+2. Exit
+
+Enter choice: ============================================
+                   LOGIN
+============================================
+Enter account number: Enter 4-digit PIN: Invalid PIN. Attempts remaining: 2
+Enter 4-digit PIN: 
+Login successful. Welcome, Rahul Sharma!
+============================================
+              ACCOUNT DETAILS
+============================================
+Account Number  : 1001
+Name            : Rahul Sharma
+Account Type    : Savings
+============================================
+
+============================================
+               ATM SIMULATOR
+============================================
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Transfer Money
+5. Change PIN
+6. Mini Statement
+7. Account Details
+8. Logout
+
+Enter your choice: 
+Successfully logged out.
+
+============================================
+               ATM SIMULATOR
+============================================
+
+Welcome to ABC Bank ATM
+
+1. Login
+2. Exit
+
+Enter choice: 
+Thank you for using ABC Bank ATM. Goodbye!
+(Accounts in system: 3, transactions recorded: 5)
